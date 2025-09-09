@@ -26,3 +26,18 @@
   --font-DM-Sans: "DM Sans", sans-serif;
   --font-Grotesque: "Bricolage Grotesque", sans-serif;
 }
+
+@theme {
+  --color-neutral-900: #030221;
+  --color-neutral-800: #2b2740;
+  --color-neutral-700: #37334a;
+  --color-neutral-600: #494763;
+  --color-neutral-300: #b2b2b8;
+  --color-neutral-200: #d6d6dc;
+  --color-neutral-0: #ffffff;
+
+  --color-orange-500: #ff7a1a;
+
+  --color-blue-500: #4056cc;
+  --color-blue-700: #3c1f8a;
+}
