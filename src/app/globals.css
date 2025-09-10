@@ -1,20 +1,27 @@
 @font-face {
-  font-family: "DM-Sans";
-  src: url("/assets/fonts/DM_Sans/static/DMSans-Medium.ttf") format("truetype");
+  font-family: "DM Sans";
+  src: url("/public/fonts/DM_Sans/static/DMSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("/fonts/DM_Sans/static/DMSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "DM-Sans";
-  src: url("/assets/fonts/DM_Sans/static/DMSans-Bold.ttf") format("truetype");
+  font-family: "DM Sans";
+  src: url("/fonts/DM_Sans/static/DMSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Bricolage-Grotesque";
-  src: url("/assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf")
+  font-family: "Bricolage Grotesque";
+  src: url("/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf")
     format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -29,15 +36,16 @@
 
 @theme {
   --color-neutral-900: #030221;
+  --color-neutral-850: #25253f;
   --color-neutral-800: #2b2740;
+  --color-neutral-750: #8c8ca0;
   --color-neutral-700: #37334a;
   --color-neutral-600: #494763;
   --color-neutral-300: #b2b2b8;
   --color-neutral-200: #d6d6dc;
   --color-neutral-0: #ffffff;
-
   --color-orange-500: #ff7a1a;
-
   --color-blue-500: #4056cc;
+  --color-blue-600: rgb(42, 28, 150);
   --color-blue-700: #3c1f8a;
 }
